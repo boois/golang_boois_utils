@@ -1,4 +1,4 @@
-package result
+package boois_utils
 
 type ReturnResult struct {
 	Code   int `json:"code"`
