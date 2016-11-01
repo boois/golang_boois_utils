@@ -11,13 +11,13 @@ func ResponseRes(w http.ResponseWriter, res result.ReturnResult) {
 
 	w.Write(bytes)
 }
-func Response(w http.ResponseWriter, code int, msg string, info string, debug string, result interface{}) {
+func Response(w http.ResponseWriter, code int, msg string, info string, debug string, result1 interface{}) {
 	bytes, _ := json.Marshal(result.ReturnResult{
 		Code:code,
 		Msg:msg,
 		Info:info,
 		Debug:debug,
-		Result:result,
+		Result:result1,
 	})
 
 	w.Write(bytes)
