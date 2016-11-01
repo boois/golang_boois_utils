@@ -3,7 +3,6 @@ package response
 import (
 	"net/http"
 	"encoding/json"
-	"fmt"
 	"git.boois.cn/d01/git_repo/boois_utils.git/result"
 )
 
