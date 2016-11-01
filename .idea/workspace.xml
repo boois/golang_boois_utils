@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result/result.go" afterPath="$PROJECT_DIR$/result/result.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/response/response.go" afterPath="$PROJECT_DIR$/response/response.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -72,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmd_parser.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cmd_parser.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-393">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="253">
+              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
               <folding>
                 <element signature="e#20#41#0" expanded="true" />
               </folding>
@@ -96,12 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="response.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/response/response.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="437">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#18#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,11 +186,11 @@
         <option value="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_info_test.go" />
-        <option value="$PROJECT_DIR$/response/response.go" />
         <option value="$PROJECT_DIR$/vali/vali_input.go" />
         <option value="$PROJECT_DIR$/str/str.go" />
         <option value="$PROJECT_DIR$/result/result.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper.go" />
+        <option value="$PROJECT_DIR$/response/response.go" />
       </list>
     </option>
   </component>
@@ -1085,14 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/response/response.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1143,10 +1136,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="253">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
           <folding>
             <element signature="e#20#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#18#116#0" expanded="true" />
           </folding>
         </state>
       </provider>

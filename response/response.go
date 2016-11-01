@@ -10,7 +10,7 @@ import (
 func ResponseRes(w http.ResponseWriter, res result.ReturnResult) {
 	bytes, _ := json.Marshal(res)
 
-	fmt.Fprint(w, string(bytes))
+	w.Write(bytes)
 }
 func Response(w http.ResponseWriter, code int, msg string, info string, debug string, result interface{}) {
 	bytes, _ := json.Marshal(result.ReturnResult{
@@ -21,5 +21,6 @@ func Response(w http.ResponseWriter, code int, msg string, info string, debug st
 		Result:result,
 	})
 
-	fmt.Fprint(w, string(bytes))
+	w.Write(bytes)
+
 }
