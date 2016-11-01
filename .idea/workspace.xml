@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_helper/mysql_helper.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_helper/mysql_helper_test.go" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql_helper.go" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cmd_parse_test.go" afterPath="$PROJECT_DIR$/cmd_parser/cmd_parse_test.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cmd_parser.go" afterPath="$PROJECT_DIR$/cmd_parser/cmd_parser.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysql_rows.go" afterPath="$PROJECT_DIR$/db_helper/mysql_rows.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result/result.go" afterPath="$PROJECT_DIR$/result/result.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -31,45 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="guid.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guid.go">
+      <file leaf-file-name="result.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/result.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql_helper.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
+      <file leaf-file-name="mysql_rows.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
-                <element signature="e#19#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtin.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/builtin/builtin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cmd_parser.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding>
-                <element signature="e#20#41#0" expanded="true" />
+                <element signature="e#19#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,37 +60,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vali_rule_chker.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vali_rule_chker.go">
+      <file leaf-file-name="mysql_helper.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1919">
-              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+            <state relative-caret-position="1311">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
-                <element signature="e#21#80#0" expanded="true" />
+                <element signature="e#19#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql_rows.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
+      <file leaf-file-name="cmd_parser.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="-393">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
               <folding>
-                <element signature="e#19#40#0" expanded="true" />
+                <element signature="e#20#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="vali_rule_chker_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vali_rule_chker_test.go">
+        <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="45" selection-start-line="12" selection-start-column="8" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="19">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#21#42#0" expanded="true" />
+                <element signature="e#14#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="response.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response/response.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vali_rule_info.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#14#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,18 +121,20 @@
       <file leaf-file-name="cmd_parse_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#20#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/database/sql/sql.go">
+      <file leaf-file-name="str.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/str/str.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="1945" column="8" selection-start-line="1945" selection-start-column="8" selection-end-line="1945" selection-end-column="8" />
+            <state relative-caret-position="-431">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -178,11 +175,21 @@
         <option value="$PROJECT_DIR$/vali_rule_chker.go" />
         <option value="$PROJECT_DIR$/mysql_helper.go" />
         <option value="$PROJECT_DIR$/mysql_helper_test.go" />
-        <option value="$PROJECT_DIR$/db_helper/mysql_helper.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper_test.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_rows.go" />
         <option value="$PROJECT_DIR$/cmd_parser/cmd_parse_test.go" />
         <option value="$PROJECT_DIR$/cmd_parser/cmd_parser.go" />
+        <option value="$PROJECT_DIR$/guid/guid.go" />
+        <option value="$PROJECT_DIR$/vali/vali_input_test.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_chker.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_info_test.go" />
+        <option value="$PROJECT_DIR$/response/response.go" />
+        <option value="$PROJECT_DIR$/vali/vali_input.go" />
+        <option value="$PROJECT_DIR$/str/str.go" />
+        <option value="$PROJECT_DIR$/result/result.go" />
+        <option value="$PROJECT_DIR$/db_helper/mysql_helper.go" />
       </list>
     </option>
   </component>
@@ -283,6 +290,80 @@
               <option name="myItemId" value="boois_utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="str" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="result" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="response" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db_helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -318,10 +399,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmd_parser" />
-      <recent name="$PROJECT_DIR$/db_helper" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/str" />
+      <recent name="$PROJECT_DIR$/vali" />
+      <recent name="$PROJECT_DIR$/result" />
+      <recent name="$PROJECT_DIR$/response" />
+      <recent name="$PROJECT_DIR$/guid" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestCount in mysql_helper_test.go">
@@ -748,17 +830,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guid.go">
+    <entry file="file://$PROJECT_DIR$/guid/guid.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#21#44#0" expanded="false" />
+            <element signature="e#14#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.go">
+    <entry file="file://$PROJECT_DIR$/result/result.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
@@ -766,12 +848,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/response.go">
+    <entry file="file://$PROJECT_DIR$/response/response.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="e#21#67#0" expanded="false" />
+            <element signature="e#18#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -786,22 +868,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vali_rule_info.go">
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#53#0" expanded="false" />
+            <element signature="e#14#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vali_rule_info_test.go">
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <element signature="e#21#49#0" expanded="false" />
+            <element signature="e#14#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,22 +901,22 @@
         <state relative-caret-position="190">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
           <folding>
-            <element signature="e#20#41#0" expanded="false" />
+            <element signature="e#20#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guid.go">
+    <entry file="file://$PROJECT_DIR$/guid/guid.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#44#0" expanded="false" />
+            <element signature="e#14#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.go">
+    <entry file="file://$PROJECT_DIR$/result/result.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
@@ -842,22 +924,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/response.go">
+    <entry file="file://$PROJECT_DIR$/response/response.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#21#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/response.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#21#67#0" expanded="false" />
+            <element signature="e#18#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,14 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="581" column="5" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/str.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -903,34 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="42" selection-start-line="3" selection-start-column="8" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali_rule_info.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#21#53#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali_rule_info_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="93" />
-          <folding>
-            <element signature="e#21#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -955,54 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vali_input.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#21#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali_input_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#21#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali_rule_chker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1919">
-          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-          <folding>
-            <element signature="e#21#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guid.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali_rule_chker_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="45" selection-start-line="12" selection-start-column="8" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#21#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/database/sql/sql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1019,20 +1007,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="-342">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding>
-            <element signature="e#19#99#0" expanded="true" />
+            <element signature="e#14#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guid/guid.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_input_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_input.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#95#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/str.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#20#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/result.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="e#19#40#0" expanded="true" />
           </folding>
@@ -1049,18 +1131,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="1311">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="-393">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="e#20#41#0" expanded="true" />
           </folding>

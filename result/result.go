@@ -7,3 +7,11 @@ type ReturnResult struct {
 	Debug  string `json:"debug"`
 	Result interface{} `json:"result"`
 }
+var OK=ReturnResult{
+	Code:0,
+	Msg:"ok",
+	Info:"操作成功",
+	Debug:"",
+	Result:nil,
+
+}
