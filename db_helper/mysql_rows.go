@@ -1,8 +1,8 @@
-package boois_utils
+package db_helper
 
 import "database/sql"
 
-func get_items(rows * sql.Rows) [](map[string]string){
+func GetItems(rows * sql.Rows) [](map[string]string){
 	items := [](map[string]string){}
 	cols, _ := rows.Columns()
 	scan_args:=make([]interface{}, len(cols))

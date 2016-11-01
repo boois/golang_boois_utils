@@ -1,4 +1,4 @@
-package boois_utils
+package cmd_parser
 
 import (
 	"strings"

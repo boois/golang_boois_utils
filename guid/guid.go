@@ -1,4 +1,4 @@
-package boois_utils
+package guid
 
 import (
 	"os"

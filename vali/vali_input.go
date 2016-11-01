@@ -1,11 +1,12 @@
-package boois_utils
+package vali
 
 import (
 	"net/http"
 	"fmt"
+	"git.boois.cn/d01/git_repo/boois_utils.git/result"
 )
 //按照规则验证post的值  返回result
-func Validete(r *http.Request,rule_strs ... string)ReturnResult {
+func Validete(r *http.Request,rule_strs ... string)result.ReturnResult {
 	for _,rule_str :=range rule_strs{
 		vali_rule_chker := ValiRuleChker{}
 		vali_rule_info := ValiRuleInfo{}
@@ -16,7 +17,7 @@ func Validete(r *http.Request,rule_strs ... string)ReturnResult {
 		fmt.Println("field val:",r.Form.Get(vali_rule_info.Field))
 		is_ok, msg:=vali_rule_chker.Chk(r.Form.Get(vali_rule_info.Field))
 		if !vali_rule_chker.IsValidated{
-			return ReturnResult{
+			return result.ReturnResult{
 				Code   :is_ok,
 				Msg    :"input_val_err",
 				Info   :msg,
@@ -26,7 +27,7 @@ func Validete(r *http.Request,rule_strs ... string)ReturnResult {
 		}
 	}
 	//成功
-	return ReturnResult{
+	return result.ReturnResult{
 		Code   :0,
 		Msg    :"ok",
 		Info   :"操作成功",
