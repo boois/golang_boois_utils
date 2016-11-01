@@ -1,8 +1,8 @@
-package boois_utils
+package str
 
 
 //截取字符串 start 起点下标 length 需要截取的长度
-func substr(str string, start int, length int) string {
+func Substr(str string, start int, length int) string {
     rs := []rune(str)
     rl := len(rs)
     end := 0
