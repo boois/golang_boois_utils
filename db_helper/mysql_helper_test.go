@@ -4,6 +4,8 @@ import (
 	"testing"
 	"fmt"
 	"time"
+	"database/sql"
+	"strconv"
 )
 
 var db_info="root:@tcp(127.0.0.1:3306)/test?charset=utf8&loc=Local"
@@ -30,7 +32,7 @@ func TestBind(t *testing.T) {
 	fmt.Println(one["create_date"])
 }
 func TestEach(t *testing.T) {
-	each_func:=func(row map[string]string){
+	each_func:=func(row map[string]sql.RawBytes){
 		fmt.Println("-------row-----")
 		fmt.Println(row)
 
@@ -44,9 +46,9 @@ func TestGetList(t *testing.T) {
 	fmt.Println(rows)
 }
 func TestPaging(t *testing.T) {
-	each_func:=func(row map[string]string){
+	each_func:=func(row map[string]sql.RawBytes){
 		fmt.Println("-------row-----")
-		fmt.Println(row)
+		fmt.Println(strconv.ParseFloat(string(row["price"]),64))
 
 	}
 	rs_count,err:=Paging("visit","id,ip,code,price","user_key=?",[]interface{}{"aaa"},"id desc",2,1,each_func,true,db_info)
