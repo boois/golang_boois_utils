@@ -1,4 +1,4 @@
-package db_helper
+package mysql_helper
 
 import (
 	"testing"
