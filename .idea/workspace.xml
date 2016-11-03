@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_helper/mysql_rows.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_helper/mysql_helper.go" afterPath="$PROJECT_DIR$/db_helper/mysql_helper.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_helper/mysql_helper_test.go" afterPath="$PROJECT_DIR$/db_helper/mysql_helper_test.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db_helper/mysql_helper.go" afterPath="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db_helper/mysql_helper_test.go" afterPath="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -29,7 +27,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="mysql_helper_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper_test.go">
+        <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
@@ -111,8 +109,8 @@
       <file leaf-file-name="str.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/str/str.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="417">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -327,6 +325,10 @@
               <option name="myItemId" value="db_helper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysql_helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -362,11 +364,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db_helper/mysql_helper" />
       <recent name="$PROJECT_DIR$/str" />
       <recent name="$PROJECT_DIR$/vali" />
       <recent name="$PROJECT_DIR$/result" />
       <recent name="$PROJECT_DIR$/response" />
-      <recent name="$PROJECT_DIR$/guid" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestPaging in mysql_helper_test.go (1)">
@@ -757,7 +759,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41255605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -801,7 +803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper_test.go">
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
@@ -811,12 +813,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#19#99#0" expanded="true" />
+            <element signature="e#19#99#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,7 +848,7 @@
         <state relative-caret-position="209">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="e#18#109#0" expanded="true" />
+            <element signature="e#18#109#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,7 +899,7 @@
         <state relative-caret-position="133">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="e#18#109#0" expanded="true" />
+            <element signature="e#18#109#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,7 +970,7 @@
         <state relative-caret-position="152">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#18#109#0" expanded="true" />
+            <element signature="e#18#109#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1058,7 +1060,7 @@
         <state relative-caret-position="209">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="e#18#109#0" expanded="true" />
+            <element signature="e#18#109#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1110,7 +1112,7 @@
         <state relative-caret-position="285">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#15#43#0" expanded="true" />
+            <element signature="e#15#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1131,17 +1133,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding>
-            <element signature="e#19#99#0" expanded="true" />
+            <element signature="e#19#99#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper_test.go">
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
@@ -1217,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/str/str.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="417">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
