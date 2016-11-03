@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/response/response.go" afterPath="$PROJECT_DIR$/response/response.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/email/email.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/email/email_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/errors/errors.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vali/vali_rule_info.go" afterPath="$PROJECT_DIR$/vali/vali_rule_info.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -25,28 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="result.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/result.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql_rows.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="e#19#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mysql_helper_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper_test.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,7 +44,7 @@
       <file leaf-file-name="mysql_helper.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
+            <state relative-caret-position="1216">
               <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="e#19#99#0" expanded="true" />
@@ -74,7 +56,7 @@
       <file leaf-file-name="cmd_parser.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="1539">
               <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
               <folding>
                 <element signature="e#20#41#0" expanded="true" />
@@ -83,25 +65,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vali_rule_chker_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
+      <file leaf-file-name="response.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response/response.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
-                <element signature="e#14#35#0" expanded="true" />
+                <element signature="e#18#109#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/response/response.go">
+      <file leaf-file-name="encode.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/encoding/json/encode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email/email.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <element signature="e#18#109#0" expanded="true" />
+                <element signature="e#15#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/smtp/auth.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="51" column="60" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/errors/errors.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#16#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email/email_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="e#15#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,33 +136,11 @@
       <file leaf-file-name="vali_rule_info.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="258">
+              <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
               <folding>
-                <element signature="e#14#46#0" expanded="true" />
+                <element signature="e#14#102#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cmd_parse_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="e#20#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="str.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/str/str.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-431">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -184,13 +188,16 @@
         <option value="$PROJECT_DIR$/vali/vali_input_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_chker.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
-        <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_info_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_input.go" />
         <option value="$PROJECT_DIR$/str/str.go" />
         <option value="$PROJECT_DIR$/result/result.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper.go" />
         <option value="$PROJECT_DIR$/response/response.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
+        <option value="$PROJECT_DIR$/email/email_test.go" />
+        <option value="$PROJECT_DIR$/email/email.go" />
+        <option value="$PROJECT_DIR$/errors/errors.go" />
       </list>
     </option>
   </component>
@@ -203,7 +210,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="978" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -362,6 +369,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db_helper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -382,8 +417,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,27 +442,7 @@
       <recent name="$PROJECT_DIR$/guid" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCount in mysql_helper_test.go">
-    <configuration default="false" name="TestGetList in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestGetList$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestPaging in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestPaging$" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestSendToMail in email_test.go (1)">
     <configuration default="false" name="TestBind in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
@@ -456,6 +471,26 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^TestCount$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSendToMail in email_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="boois_utils" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSendToMail$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSendToMail in email_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="boois_utils" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSendToMail$" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -698,19 +733,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestGetList in mysql_helper_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestCount in mysql_helper_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestCount in mysql_helper_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestSendToMail in email_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSendToMail in email_test.go (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestCount in mysql_helper_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestGetList in mysql_helper_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSendToMail in email_test.go (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestSendToMail in email_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestCount in mysql_helper_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -751,52 +786,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBind_in_mysql_helper_test_go - 2016.11.01 at 22h 05m 12s.xml">
-      <configuration name="TestBind in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 40m 01s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCount_in_mysql_helper_test_go - 2016.11.01 at 22h 14m 33s.xml">
-      <configuration name="TestCount in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 41m 37s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCount_in_mysql_helper_test_go - 2016.11.01 at 22h 14m 56s.xml">
-      <configuration name="TestCount in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 42m 20s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go - 2016.11.01 at 22h 01m 16s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 42m 53s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go - 2016.11.01 at 22h 01m 36s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 44m 10s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go - 2016.11.01 at 22h 03m 54s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 44m 57s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go - 2016.11.01 at 22h 04m 06s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 49m 11s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go - 2016.11.01 at 22h 05m 05s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 50m 18s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go_(1) - 2016.11.01 at 22h 09m 27s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go (1)" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 51m 13s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go_(1) - 2016.11.01 at 22h 13m 35s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go (1)" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSendToMail_in_email_test_go_(1) - 2016.11.03 at 13h 51m 46s.xml">
+      <configuration name="TestSendToMail in email_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="978" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="984" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11477363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41196388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32844242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11397935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41255605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -804,6 +838,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -831,13 +866,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/result/result.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding>
+            <element signature="e#19#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+          <folding>
+            <element signature="e#20#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#18#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/encoding/json/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#20#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/str.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guid/guid.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +1000,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#46#0" expanded="true" />
+            <element signature="e#14#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,9 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,7 +1025,7 @@
         <state relative-caret-position="190">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
           <folding>
-            <element signature="e#20#41#0" expanded="true" />
+            <element signature="e#20#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,9 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,7 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="532" column="5" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="419" column="18" selection-start-line="419" selection-start-column="18" selection-end-line="419" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="1945" column="8" selection-start-line="1945" selection-start-column="8" selection-end-line="1945" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,9 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-342">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding>
-            <element signature="e#14#73#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,9 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,9 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,9 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#14#61#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,25 +1157,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#95#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/str/str.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-431">
+        <state relative-caret-position="76">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
@@ -1078,10 +1170,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="152">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#14#35#0" expanded="true" />
+            <element signature="e#14#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1091,7 +1183,7 @@
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#20#41#0" expanded="true" />
+            <element signature="e#20#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1126,7 +1218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
+        <state relative-caret-position="1216">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#19#99#0" expanded="true" />
@@ -1136,7 +1228,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="1539">
           <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
           <folding>
             <element signature="e#20#41#0" expanded="true" />
@@ -1146,10 +1238,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/response/response.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="e#18#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/encoding/json/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
+          <folding>
+            <element signature="e#14#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/email_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/email.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/smtp/auth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errors/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

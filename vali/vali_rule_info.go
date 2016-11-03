@@ -3,6 +3,7 @@ package vali
 import (
 	"strings"
 	"strconv"
+	"git.boois.cn/d01/git_repo/boois_utils.git/cmd_parser"
 )
 
 var INT = 1 << 0  // 整数
@@ -104,7 +105,7 @@ func (this *ValiRuleInfo) getLenVal(val string) int {
 
 
 func (this *ValiRuleInfo) ParseRule() {
-	this.Field,this.Cmd_List=Cmd_parse(this.Rule)
+	this.Field,this.Cmd_List=cmd_parser.Cmd_parse(this.Rule)
 	this.Info=this.Cmd_List["i"]
 	this.Type_Str=strings.Replace(strings.Replace(this.Cmd_List["t"],"+","P_",-1),"-", "N_",-1)
 	this.Type_Arr=strings.Split(this.Type_Str,"|")
