@@ -81,28 +81,36 @@ func GetList(cmdtxt string, mapping []interface{}, db_info string) ([]map[string
 func Paging(tab_name string, fields string, where_str string, mapping []interface{}, sort_str string, page_size int, current_page int, each_fn func(map[string]sql.RawBytes), counter bool, db_info string) (int, error) {
 	rs_count := 0
 	if counter {
-
-		rs_count, err1 := Count(tab_name, where_str, mapping, db_info)
-		if err1 != nil {
-			_ = rs_count
-
-			return 0, err1
+		cnt, err := Count(tab_name, where_str, mapping, db_info)
+		if err != nil {
+			return 0, err
 		}
-
+		rs_count = cnt
 	}
-	//
-	err3 := Each(fmt.Sprintf("select %s from %s where %s order by %s limit %d offset %d", fields, tab_name, where_str, sort_str, page_size, (current_page - 1) * page_size), mapping, each_fn, db_info)
-	if err3 != nil {
-		return 0, err3
+	if where_str != "" {
+		where_str = " where "+where_str
+	}
+	if sort_str != "" {
+		sort_str = " order by "+sort_str
+	}
+	cmd := fmt.Sprintf("select %s from %s %s %s limit %d offset %d", fields, tab_name, where_str, sort_str, page_size, (current_page - 1) * page_size)
+
+	err := Each(cmd, mapping, each_fn, db_info)
+	if err != nil {
+		return 0, err
 	}
 	return rs_count, nil
 
 }
 func Count(tab_name string, where_str string, mapping []interface{}, db_info string) (int, error) {
 	rs_count := 0
-	one, err1 := ExecuteScalar("select count(*) as num from " + tab_name + " where " + where_str, mapping, db_info)
-	if err1 != nil {
-		return 0, err1
+	if where_str != "" {
+		where_str = " where "+where_str
+	}
+	println(fmt.Sprintf("select count(*) as num from %s%s",tab_name ,where_str))
+	one, err := ExecuteScalar(fmt.Sprintf("select count(*) as num from %s%s",tab_name ,where_str) , mapping, db_info)
+	if err != nil {
+		return 0, err
 	}
 	rs_count, _ = strconv.Atoi(string(one["num"]))
 	return rs_count, nil
