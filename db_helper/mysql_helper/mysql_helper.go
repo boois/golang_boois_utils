@@ -107,7 +107,6 @@ func Count(tab_name string, where_str string, mapping []interface{}, db_info str
 	if where_str != "" {
 		where_str = " where "+where_str
 	}
-	println(fmt.Sprintf("select count(*) as num from %s%s",tab_name ,where_str))
 	one, err := ExecuteScalar(fmt.Sprintf("select count(*) as num from %s%s",tab_name ,where_str) , mapping, db_info)
 	if err != nil {
 		return 0, err
