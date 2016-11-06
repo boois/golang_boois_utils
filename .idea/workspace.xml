@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vali/vali_rule_chker_2_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go" afterPath="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go" afterPath="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mysql_helper_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mysql_helper_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="551">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -54,6 +53,20 @@
               <caret line="0" column="20" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="20" />
               <folding>
                 <element signature="e#22#102#0" expanded="true" />
+                <marker date="1478428157000" expanded="true" signature="286:308" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="523:922" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="610:654" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="859:900" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1032:1332" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1119:1136" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1279:1315" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1435:1850" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1522:1568" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1635:1682" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="1778:1828" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="2069:2100" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="2098:2100" placeholder="{...}" />
+                <marker date="1478428157000" expanded="true" signature="2912:2987" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,9 +75,23 @@
       <file leaf-file-name="vali_rule_chker_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="154">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#14#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vali_rule_chker_2_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_2_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#14#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +99,8 @@
       <file leaf-file-name="vali_rule_chker.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="131">
+              <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -82,18 +109,8 @@
       <file leaf-file-name="vali_input_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vali/vali_input_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cmd_parse_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="95">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -112,7 +129,7 @@
       <file leaf-file-name="str.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/str/str.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="627">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
@@ -122,8 +139,8 @@
       <file leaf-file-name="vali_rule_info.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
+            <state relative-caret-position="639">
+              <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
               <folding>
                 <element signature="e#14#102#0" expanded="true" />
               </folding>
@@ -171,13 +188,11 @@
         <option value="$PROJECT_DIR$/guid/guid.go" />
         <option value="$PROJECT_DIR$/vali/vali_input_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_chker.go" />
-        <option value="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_info_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_input.go" />
         <option value="$PROJECT_DIR$/str/str.go" />
         <option value="$PROJECT_DIR$/result/result.go" />
         <option value="$PROJECT_DIR$/response/response.go" />
-        <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
         <option value="$PROJECT_DIR$/email/email.go" />
         <option value="$PROJECT_DIR$/errors/errors.go" />
         <option value="$PROJECT_DIR$/email/email_test.go" />
@@ -186,6 +201,9 @@
         <option value="$PROJECT_DIR$/db_helper/mysql_helper_test.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_chker_2_test.go" />
+        <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
       </list>
     </option>
   </component>
@@ -197,8 +215,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="984" />
+    <option name="width" value="1920" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,6 +249,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="boois_utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -351,8 +379,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,6 +396,9 @@
     <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vali" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/db_helper/mysql_helper" />
       <recent name="$PROJECT_DIR$/str" />
@@ -376,17 +407,7 @@
       <recent name="$PROJECT_DIR$/response" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestPaging in mysql_helper_test.go (1)">
-    <configuration default="false" name="TestEach in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestEach$" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestValiRuleChker2 in vali_rule_chker_2_test.go (1)">
     <configuration default="false" name="TestBind in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
@@ -397,34 +418,44 @@
       <pattern value="^TestBind$" />
       <method />
     </configuration>
-    <configuration default="false" name="TestExecuteScalar in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="TestEach in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestExecuteScalar$" />
+      <pattern value="^TestEach$" />
       <method />
     </configuration>
-    <configuration default="false" name="TestExecuteNonQuery in mysql_helper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="TestValiRuleChker in vali_rule_chker_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestExecuteNonQuery$" />
+      <pattern value="^TestValiRuleChker$" />
       <method />
     </configuration>
-    <configuration default="false" name="TestPaging in mysql_helper_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="TestValiRuleChker2 in vali_rule_chker_2_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestPaging$" />
+      <pattern value="^TestValiRuleChker2$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestValiRuleChker2 in vali_rule_chker_2_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="boois_utils" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestValiRuleChker2$" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -667,19 +698,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestEach in mysql_helper_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestExecuteScalar in mysql_helper_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestExecuteNonQuery in mysql_helper_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestEach in mysql_helper_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestValiRuleChker in vali_rule_chker_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestValiRuleChker2 in vali_rule_chker_2_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestValiRuleChker2 in vali_rule_chker_2_test.go (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestPaging in mysql_helper_test.go (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestExecuteNonQuery in mysql_helper_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestExecuteScalar in mysql_helper_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestEach in mysql_helper_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestValiRuleChker2 in vali_rule_chker_2_test.go (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestValiRuleChker2 in vali_rule_chker_2_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestValiRuleChker in vali_rule_chker_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestEach in mysql_helper_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestBind in mysql_helper_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -720,23 +751,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBind_in_mysql_helper_test_go - 2016.11.03 at 19h 57m 29s.xml">
-      <configuration name="TestBind in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestCount_in_mysql_helper_test_go_(1) - 2016.11.03 at 19h 56m 31s.xml">
-      <configuration name="TestCount in mysql_helper_test.go (1)" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEach_in_mysql_helper_test_go - 2016.11.03 at 19h 57m 17s.xml">
-      <configuration name="TestEach in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestExecuteNonQuery_in_mysql_helper_test_go - 2016.11.03 at 19h 57m 53s.xml">
-      <configuration name="TestExecuteNonQuery in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestExecuteScalar_in_mysql_helper_test_go - 2016.11.03 at 19h 57m 43s.xml">
-      <configuration name="TestExecuteScalar in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPaging_in_mysql_helper_test_go - 2016.11.03 at 19h 56m 48s.xml">
-      <configuration name="TestPaging in mysql_helper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestExecuteScalar_in_mysql_helper_test_go_(1) - 2016.11.03 at 23h 07m 15s.xml">
+      <configuration name="TestExecuteScalar in mysql_helper_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPaging_in_mysql_helper_test_go_(1) - 2016.11.03 at 19h 58m 09s.xml">
       <configuration name="TestPaging in mysql_helper_test.go (1)" configurationId="GoTestRunConfiguration" />
@@ -750,21 +766,36 @@
     <history-entry file="TestPaging_in_mysql_helper_test_go_(1) - 2016.11.03 at 20h 00m 47s.xml">
       <configuration name="TestPaging in mysql_helper_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestValiRuleChker2_in_vali_rule_chker_2_test_go - 2016.11.06 at 18h 32m 22s.xml">
+      <configuration name="TestValiRuleChker2 in vali_rule_chker_2_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestValiRuleChker2_in_vali_rule_chker_2_test_go - 2016.11.06 at 18h 32m 31s.xml">
+      <configuration name="TestValiRuleChker2 in vali_rule_chker_2_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestValiRuleChker2_in_vali_rule_chker_2_test_go - 2016.11.06 at 18h 32m 36s.xml">
+      <configuration name="TestValiRuleChker2 in vali_rule_chker_2_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestValiRuleChker2_in_vali_rule_chker_2_test_go_(1) - 2016.11.06 at 18h 34m 33s.xml">
+      <configuration name="TestValiRuleChker2 in vali_rule_chker_2_test.go (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestValiRuleChker_in_vali_rule_chker_test_go - 2016.11.06 at 18h 31m 26s.xml">
+      <configuration name="TestValiRuleChker in vali_rule_chker_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="984" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="978" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11477363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15601704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41255605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41309255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40744922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -800,21 +831,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding>
-            <element signature="e#22#85#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -824,6 +845,20 @@
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#22#102#0" expanded="true" />
+            <marker date="1478428157000" expanded="true" signature="286:308" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="523:922" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="610:654" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="859:900" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1032:1332" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1119:1136" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1279:1315" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1435:1850" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1522:1568" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1635:1682" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1778:1828" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="2069:2100" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="2098:2100" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="2912:2987" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -832,9 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1539">
           <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-          <folding>
-            <element signature="e#20#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,7 +875,7 @@
         <state relative-caret-position="152">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#14#35#0" expanded="false" />
+            <element signature="e#14#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -852,9 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#18#109#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,9 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#20#41#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#18#109#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,9 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
           <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="e#20#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,9 +968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="e#20#41#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,9 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#18#109#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5821">
           <caret line="2082" column="5" selection-start-line="2082" selection-start-column="5" selection-end-line="2082" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="712" column="5" selection-start-line="712" selection-start-column="5" selection-end-line="712" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,9 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#18#109#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,23 +1087,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
           <caret line="51" column="60" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/errors/errors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/errors/errors.go" />
     <entry file="file:///usr/local/go/src/net/smtp/smtp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="304" column="5" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,9 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,9 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,19 +1120,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_rows.go" />
     <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,40 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_input_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vali/vali_input.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1206,7 +1154,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/str/str.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="627">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
@@ -1218,15 +1166,75 @@
           <caret line="0" column="20" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="20" />
           <folding>
             <element signature="e#22#102#0" expanded="true" />
+            <marker date="1478428157000" expanded="true" signature="286:308" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="523:922" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="610:654" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="859:900" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1032:1332" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1119:1136" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1279:1315" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1435:1850" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1522:1568" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1635:1682" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="1778:1828" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="2069:2100" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="2098:2100" placeholder="{...}" />
+            <marker date="1478428157000" expanded="true" signature="2912:2987" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state relative-caret-position="551">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_input_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
+          <folding>
+            <element signature="e#14#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_2_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
