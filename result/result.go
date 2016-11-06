@@ -9,7 +9,8 @@ type ReturnResult struct {
 	Debug  string `json:"debug"`
 	Result interface{} `json:"result"`
 }
-var OK=ReturnResult{
+
+var OK = ReturnResult{
 	Code:0,
 	Msg:"ok",
 	Info:"操作成功",
@@ -18,18 +19,19 @@ var OK=ReturnResult{
 
 }
 
-func (this *ReturnResult) New(code int,msg string,info string,debug string,result interface{}) ReturnResult {
-	this.Code=code
-	this.Msg=msg
-	this.Info=info
-	this.Debug=debug
-	this.Result=result
-	return this
+func New(code int, msg string, info string, debug string, result interface{}) ReturnResult {
+	return ReturnResult{
+		Code:code,
+		Msg:msg,
+		Info:info,
+		Debug:debug,
+		Result:result,
+	}
 }
 //实现了这个方法就可以作为函数执行错误的返回值
 func (this *ReturnResult) Error() string {
-	if this.Info!=""{
+	if this.Info != "" {
 		return this.Info
 	}
-	return this.Msg+"("+strconv.Itoa(this.Code)+")"
+	return this.Msg + "(" + strconv.Itoa(this.Code) + ")"
 }
