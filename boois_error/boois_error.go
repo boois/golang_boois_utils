@@ -7,7 +7,6 @@ type BooisErr struct{
 	Msg string
 	Code int
 }
-const OK="ok"
 
 func New(code int,msg string,debug string) BooisErr {
 	return BooisErr{

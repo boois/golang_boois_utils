@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boois_error/boois_error.go" afterPath="$PROJECT_DIR$/boois_error/boois_error.go" />
-    </list>
+    <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="" />
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +74,8 @@
       <file leaf-file-name="boois_error.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boois_error/boois_error.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#21#37#0" expanded="true" />
               </folding>
@@ -1213,8 +1211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boois_error/boois_error.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#21#37#0" expanded="true" />
           </folding>
