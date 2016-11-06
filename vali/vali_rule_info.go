@@ -153,7 +153,8 @@ func (this *ValiRuleInfo) ParseRule() {
 	this.HasRegx=this.Cmd_List["r"]!=""
 	this.HasInfo=this.Cmd_List["i"]!=""
 	this.HasWarning=this.Cmd_List["w"]!=""
-	this.HasRequired=this.Cmd_List["n"]!=""
+	//这里要小心处理 如果声明-n  只要n这个key有存在就是表示必须
+	_,this.HasRequired=this.Cmd_List["n"]
 	this.HasType=this.Cmd_List["t"]!=""
 	this.HasValues=this.Cmd_List["v"]!=""
 
