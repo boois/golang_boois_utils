@@ -7,8 +7,9 @@ type BooisErr struct{
 	Msg string
 	Code int
 }
+const OK="ok"
 
-func New(msg string,code int,debug string) BooisErr {
+func New(code int,msg string,debug string) BooisErr {
 	return BooisErr{
 		Msg:msg,
 		Code:code,
