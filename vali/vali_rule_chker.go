@@ -401,7 +401,13 @@ func getChker(chkType string) (func(val string) bool, error) {
 
 
 
-
-//
-//Call(FuncMap, "say", "hello")
+func ChkVal(val string,rule string)(bool,int,string){
+	vali_rule_chker := ValiRuleChker{}
+	vali_rule_info := ValiRuleInfo{}
+	vali_rule_info.Rule = rule
+	vali_rule_info.ParseRule()
+	vali_rule_chker.vali_rule_info = vali_rule_info
+	is_ok, msg:=vali_rule_chker.Chk(val)
+	return vali_rule_chker.IsValidated,is_ok,msg
+}
 

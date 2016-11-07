@@ -44,10 +44,10 @@ func ValideteVal(val_and_rules ... []string) result.ReturnResult{
 		vali_rule_chker.vali_rule_info = vali_rule_info
 		fmt.Println("field:",vali_rule_info.Field)
 		fmt.Println("field val:",val_and_rule[0])
-		is_ok, msg:=vali_rule_chker.Chk(val_and_rule[0])
+		code, msg:=vali_rule_chker.Chk(val_and_rule[0])
 		if !vali_rule_chker.IsValidated{
 			return result.ReturnResult{
-				Code   :is_ok,
+				Code   :code,
 				Msg    :"input_val_err",
 				Info   :msg,
 				Debug  :"",

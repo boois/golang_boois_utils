@@ -2,12 +2,20 @@ package vali
 
 import (
 	"testing"
+	"fmt"
 )
 
+func TestChkVal(t *testing.T) {
+	is_ok,code,msg:=ChkVal("aaa","-t guid")
+	fmt.Println(is_ok)
+	fmt.Println(code)
+	fmt.Println(msg)
+}
 func TestValiRuleChker(t *testing.T) {
 	vali_rule_chker:=ValiRuleChker{}
 
 	vali_rule_info:=ValiRuleInfo{}
+
 
 	//test start
 	vali_rule_info.Rule=`name -t str`
