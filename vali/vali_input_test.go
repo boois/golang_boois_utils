@@ -29,3 +29,15 @@ func TestValidete(t *testing.T) {
 	}
 
 }
+func TestValideteVal(t *testing.T) {
+	ret:=ValideteVal([]string{
+		"a","-t str",
+	},[]string{
+		"0","-t zero",
+	},[]string{
+		"1","-t +int",
+	},[]string{
+		"x","-t +int",
+	})
+	fmt.Print(ret)
+}
