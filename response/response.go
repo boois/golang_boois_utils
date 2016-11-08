@@ -33,7 +33,11 @@ func ResponseJsonp(w http.ResponseWriter, code int, msg string, info string, deb
 		Debug:debug,
 		Result:result1,
 	})
+	if callback==""{
+		w.Write(data_bytes)
+	}else{
+		w.Write([]byte(callback+"("+string(data_bytes)+")"))
+	}
 
-	w.Write(callback+"("+string(data_bytes)+")")
 
 }
