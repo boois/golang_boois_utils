@@ -11,6 +11,17 @@ func ResponseRes(w http.ResponseWriter, res result.ReturnResult) {
 
 	w.Write(bytes)
 }
+func ResponseResJson(w http.ResponseWriter, res result.ReturnResult,callback string) {
+	data_bytes, _ := json.Marshal(res)
+
+	if callback==""{
+		w.Write(data_bytes)
+	}else{
+		w.Write([]byte(callback+"("))
+		w.Write([]byte(data_bytes))
+		w.Write([]byte(")"))
+	}
+}
 
 func Response(w http.ResponseWriter, code int, msg string, info string, debug string, result1 interface{}) {
 	bytes, _ := json.Marshal(result.ReturnResult{
