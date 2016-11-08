@@ -117,16 +117,20 @@ func Count(tab_name string, where_str string, mapping []interface{}, db_info str
 
 func eachRow(rows *sql.Rows, each_fn func(record map[string]sql.RawBytes) bool) {
 	cols, _ := rows.Columns()
-	scan_args := make([]interface{}, len(cols))
-	row_vals := make([]sql.RawBytes, len(cols))
-	for i := range row_vals {
-		scan_args[i] = &row_vals[i]
-	}
+	col_size := len(cols)
 	for rows.Next() {
+		//数据容器开始 务必把这段代码放在for之中  数据容器不可复用
+		scan_args := make([]interface{}, col_size)
+		row_vals := make([]sql.RawBytes, col_size)
+		for i := range row_vals {
+			scan_args[i] = &row_vals[i]
+		}
+		//数据容器结束
+
 		rows.Scan(scan_args...)
 		record := map[string]sql.RawBytes{}
 		for i, val := range row_vals {
-			record[cols[i]] = val
+			record[cols[i]] = []byte(val)
 		}
 		is_go_on := each_fn(record)
 		//each_fn return false 的话就停止遍历
