@@ -11,7 +11,7 @@ func ResponseRes(w http.ResponseWriter, res result.ReturnResult) {
 
 	w.Write(bytes)
 }
-func ResponseResJson(w http.ResponseWriter, res result.ReturnResult,callback string) {
+func ResponseResJsonp(w http.ResponseWriter, res result.ReturnResult,callback string) {
 	data_bytes, _ := json.Marshal(res)
 
 	if callback==""{
