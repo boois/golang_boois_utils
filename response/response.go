@@ -24,3 +24,19 @@ func Response(w http.ResponseWriter, code int, msg string, info string, debug st
 	w.Write(bytes)
 
 }
+
+func ResponseJsonp(w http.ResponseWriter, code int, msg string, info string, debug string, result1 interface{},callback string) {
+	data_bytes, _ := json.Marshal(result.ReturnResult{
+		Code:code,
+		Msg:msg,
+		Info:info,
+		Debug:debug,
+		Result:result1,
+	})
+	res:=[]byte{}
+	res=append(res,[]byte(callback+"("))
+	res=append(res, data_bytes)
+	res=append(res,[]byte(")"))
+	w.Write(res)
+
+}
