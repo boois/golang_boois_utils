@@ -22,3 +22,9 @@ func TestPost(t *testing.T) {
 	fmt.Println(string(body))
 	fmt.Println(err)
 }
+func TestGet(t *testing.T) {
+	url:="http://counter.api.jiumayun.9pin.cn/api/app/counter/get_and_plus?app_key=279a38d18b4e40fc9054c7a64eed3af5&counter_name=test1111&delta=1&callback=cb"
+	body,err:=Get(url)
+	fmt.Println(string(body))
+	fmt.Println(err)
+}
