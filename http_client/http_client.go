@@ -37,3 +37,16 @@ func Get(url string) ([]byte,error) {
 	}
 	return body,nil
 }
+func PostJson(url string,json_str string) ([]byte,error) {
+	resp, err := http.Post(url,"application/json",strings.NewReader(json_str))
+	if err != nil {
+		return []byte{},err
+	}
+
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return []byte{},err
+	}
+	return body,nil
+}
