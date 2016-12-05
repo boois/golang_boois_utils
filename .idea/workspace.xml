@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boois_time/boois_time.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boois_time/boois_time_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vali/vali_input.go" afterPath="$PROJECT_DIR$/vali/vali_input.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vali/vali_input_test.go" afterPath="$PROJECT_DIR$/vali/vali_input_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vali/vali_rule_chker.go" afterPath="$PROJECT_DIR$/vali/vali_rule_chker.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vali/vali_rule_chker_test.go" afterPath="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -20,6 +18,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/boois_utils$search_str_parser.coverage" NAME="search_str_parser Coverage Results" MODIFIED="1478522828847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/search_str_parser" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,106 +33,104 @@
       <file leaf-file-name="vali_input.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vali/vali_input.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="855">
               <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="atoi.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/strconv/atoi.go">
+      <file leaf-file-name="search_str_parser.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itoa.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/strconv/itoa.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtin.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/builtin/builtin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vali_rule_chker_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="7866">
+              <caret line="419" column="1" selection-start-line="419" selection-start-column="1" selection-end-line="419" selection-end-column="1" />
               <folding>
-                <element signature="e#14#42#0" expanded="true" />
+                <element signature="e#27#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boois_error.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boois_error/boois_error.go">
+      <file leaf-file-name="search_str_parser_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="53" />
-              <folding>
-                <element signature="e#21#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="response.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/response/response.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="152">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/result.go">
+      <file leaf-file-name="http_client.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http_client/http_client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="322">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/time/time.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="776" column="5" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boois_time.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boois_time/boois_time.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <element signature="e#16#32#0" expanded="true" />
+                <element signature="e#20#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vali_rule_chker.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
+      <file leaf-file-name="boois_time_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boois_time/boois_time_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="404" column="42" selection-start-line="404" selection-start-column="42" selection-end-line="404" selection-end-column="42" />
+            <state relative-caret-position="322">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
-                <element signature="e#14#73#0" expanded="true" />
+                <element signature="e#20#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vali_input_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vali/vali_input_test.go">
+      <file leaf-file-name="reader.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/strings/reader.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="2755">
+              <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regexp.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/regexp/regexp.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7695">
+              <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_str_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/guid/guid.go" />
         <option value="$PROJECT_DIR$/src/result/result.go" />
         <option value="$PROJECT_DIR$/src/response/response.go" />
         <option value="$PROJECT_DIR$/guid.go" />
@@ -177,14 +175,12 @@
         <option value="$PROJECT_DIR$/guid/guid.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_info_test.go" />
         <option value="$PROJECT_DIR$/str/str.go" />
-        <option value="$PROJECT_DIR$/response/response.go" />
         <option value="$PROJECT_DIR$/email/email.go" />
         <option value="$PROJECT_DIR$/errors/errors.go" />
         <option value="$PROJECT_DIR$/email/email_test.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_rows.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper_test.go" />
-        <option value="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go" />
         <option value="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_chker_2_test.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_info.go" />
@@ -196,6 +192,16 @@
         <option value="$PROJECT_DIR$/vali/vali_input.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_chker.go" />
         <option value="$PROJECT_DIR$/vali/vali_rule_chker_test.go" />
+        <option value="$PROJECT_DIR$/search_str_parser/search_str_parser.py.go" />
+        <option value="$PROJECT_DIR$/search_str_parser/search_str_parser.py" />
+        <option value="$PROJECT_DIR$/response/response.go" />
+        <option value="$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go" />
+        <option value="$PROJECT_DIR$/http_client/http_client_test.go" />
+        <option value="$PROJECT_DIR$/search_str_parser/search_str_parser.go" />
+        <option value="$PROJECT_DIR$/search_str_parser/search_str_parser_test.go" />
+        <option value="$PROJECT_DIR$/http_client/http_client.go" />
+        <option value="$PROJECT_DIR$/boois_time/boois_time.go" />
+        <option value="$PROJECT_DIR$/boois_time/boois_time_test.go" />
       </list>
     </option>
   </component>
@@ -242,15 +248,9 @@
               <option name="myItemId" value="boois_utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -260,24 +260,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vali" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="str" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,97 +273,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="response" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="email" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db_helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql_helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boois_error" />
+              <option name="myItemId" value="boois_time" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider$1" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vali_rule_chker_test.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boois_time" />
     <property name="configurable.Global.libraries.is.expanded" value="true" />
     <property name="configurable.Project.libraries.is.expanded" value="true" />
     <property name="configurable.Module.libraries.is.expanded" value="false" />
@@ -400,55 +308,15 @@
       <recent name="$PROJECT_DIR$/result" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestChkVal in vali_rule_chker_test.go (1)">
-    <configuration default="false" name="TestValideteVal in vali_input_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+  <component name="RunManager" selected="Go Test.TestTime_String in boois_time_test.go">
+    <configuration default="false" name="TestTime_String in boois_time_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$/boois_time" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestValideteVal$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestValideteVal in vali_input_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestValideteVal$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestValideteVal in vali_input_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestValideteVal$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestChkVal in vali_rule_chker_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestChkVal$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestChkVal in vali_rule_chker_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestChkVal$" />
+      <pattern value="^TestTime_String$" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -690,20 +558,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestValideteVal in vali_input_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestValideteVal in vali_input_test.go (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestValideteVal in vali_input_test.go (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestChkVal in vali_rule_chker_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestChkVal in vali_rule_chker_test.go (1)" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestTime_String in boois_time_test.go" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestChkVal in vali_rule_chker_test.go (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestChkVal in vali_rule_chker_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestValideteVal in vali_input_test.go (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestValideteVal in vali_input_test.go (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestValideteVal in vali_input_test.go" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestTime_String in boois_time_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -744,42 +604,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestByte2Int_in_boois_conv_test_go - 2016.11.06 at 20h 28m 26s.xml">
-      <configuration name="TestByte2Int in boois_conv_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 07m 27s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestByte2Int_in_boois_conv_test_go - 2016.11.06 at 20h 29m 49s.xml">
-      <configuration name="TestByte2Int in boois_conv_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 11m 07s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestChkVal_in_vali_rule_chker_test_go - 2016.11.07 at 11h 12m 34s.xml">
-      <configuration name="TestChkVal in vali_rule_chker_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 11m 22s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestChkVal_in_vali_rule_chker_test_go - 2016.11.07 at 11h 13m 07s.xml">
-      <configuration name="TestChkVal in vali_rule_chker_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 11m 38s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestChkVal_in_vali_rule_chker_test_go - 2016.11.07 at 11h 13m 13s.xml">
-      <configuration name="TestChkVal in vali_rule_chker_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 13m 26s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestValiRuleChker2_in_vali_rule_chker_2_test_go_(1) - 2016.11.06 at 18h 34m 33s.xml">
-      <configuration name="TestValiRuleChker2 in vali_rule_chker_2_test.go (1)" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 14m 38s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestValideteVal_in_vali_input_test_go - 2016.11.07 at 10h 47m 30s.xml">
-      <configuration name="TestValideteVal in vali_input_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 15m 38s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestValideteVal_in_vali_input_test_go - 2016.11.07 at 10h 49m 58s.xml">
-      <configuration name="TestValideteVal in vali_input_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 15m 48s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestValideteVal_in_vali_input_test_go_(1) - 2016.11.07 at 10h 53m 33s.xml">
-      <configuration name="TestValideteVal in vali_input_test.go (1)" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 15m 59s.xml">
+      <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestValideteVal_in_vali_input_test_go_(2) - 2016.11.07 at 11h 02m 40s.xml">
-      <configuration name="TestValideteVal in vali_input_test.go (2)" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTime_String_in_boois_time_test_go_(1) - 2016.12.05 at 15h 11m 54s.xml">
+      <configuration name="TestTime_String in boois_time_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="978" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11636219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11953932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -788,7 +648,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41309255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40744922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49324325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -824,80 +684,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/str/str.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guid/guid.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/result.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#16#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/response/response.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parser.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_info_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/strings/strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10982">
-          <caret line="581" column="5" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guid/guid.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -909,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#16#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,48 +702,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.go" />
-    <entry file="file:///usr/local/go/src/strings/strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="581" column="5" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/strconv/atof.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="532" column="5" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/regexp/regexp.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="419" column="18" selection-start-line="419" selection-start-column="18" selection-end-line="419" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/reflect/value.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5821">
           <caret line="2082" column="5" selection-start-line="2082" selection-start-column="5" selection-end-line="2082" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/http/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="2080" column="69" selection-start-line="2080" selection-start-column="45" selection-end-line="2080" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="712" column="5" selection-start-line="712" selection-start-column="5" selection-end-line="712" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="71" column="20" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,31 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="20" />
-          <folding>
-            <element signature="e#22#102#0" expanded="false" />
-            <marker date="1478428157000" expanded="true" signature="286:308" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="523:922" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="610:654" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="859:900" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1032:1332" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1119:1136" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1279:1315" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1435:1850" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1522:1568" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1635:1682" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="1778:1828" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="2069:2100" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="2098:2100" placeholder="{...}" />
-            <marker date="1478428157000" expanded="true" signature="2912:2987" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,51 +817,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
           <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_2_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_2_test.go" />
     <entry file="file:///usr/local/go/src/encoding/binary/binary.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boois_conv/boois_conv.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boois_conv/boois_conv_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///d01/gopath/src/git.boois.cn/d01/git_repo/boois_utils.git/result/result.go">
+    <entry file="file://$PROJECT_DIR$/boois_conv/boois_conv.go" />
+    <entry file="file://$PROJECT_DIR$/boois_conv/boois_conv_test.go" />
+    <entry file="file://$PROJECT_DIR$/../../gopath/src/git.boois.cn/d01/git_repo/boois_utils.git/result/result.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <marker date="1478447193000" expanded="true" signature="653:655" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,17 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="e#21#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/response/response.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,17 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#16#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,25 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_input.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="404" column="42" selection-start-line="404" selection-start-column="42" selection-end-line="404" selection-end-column="42" />
-          <folding>
-            <element signature="e#14#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,16 +869,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/strconv/atof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="532" column="33" selection-start-line="532" selection-start-column="26" selection-end-line="532" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vali/vali_rule_chker_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="57">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#14#42#0" expanded="true" />
+            <element signature="e#14#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_client/http_client_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#21#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7695">
+          <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vali/vali_input.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7866">
+          <caret line="419" column="1" selection-start-line="419" selection-start-column="1" selection-end-line="419" selection-end-column="1" />
+          <folding>
+            <element signature="e#27#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/strings/reader.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_client/http_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="776" column="5" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boois_time/boois_time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boois_time/boois_time_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#20#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
