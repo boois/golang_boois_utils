@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boois_account/boois_account.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boois_account/boois_account_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search_adapter/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__boois_utils_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__boois_utils_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
@@ -30,44 +30,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="boois_time.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boois_time/boois_time.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="e#20#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cmd_parse_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd_parser/cmd_parse_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_client.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http_client/http_client.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="37" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boois_account.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="boois_account.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boois_account/boois_account.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="21" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_str_parser_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#27#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_adapter/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_str_parser.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9139">
+              <caret line="486" column="39" selection-start-line="486" selection-start-column="39" selection-end-line="486" selection-end-column="39" />
+              <folding>
+                <element signature="e#27#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_str_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,6 +108,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="regexp.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/regexp/regexp.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2299">
+              <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mysql_helper.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_helper/mysql_helper/mysql_helper.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,28 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boois_time_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boois_time/boois_time_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="e#20#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reader.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/strings/reader.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2755">
-              <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -151,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guid.go" />
         <option value="$PROJECT_DIR$/result.go" />
         <option value="$PROJECT_DIR$/response.go" />
         <option value="$PROJECT_DIR$/test.go" />
@@ -202,6 +203,7 @@
         <option value="$PROJECT_DIR$/boois_time/boois_time_test.go" />
         <option value="$PROJECT_DIR$/boois_account/boois_account.go" />
         <option value="$PROJECT_DIR$/boois_account/boois_account_test.go" />
+        <option value="$PROJECT_DIR$/search_adapter/README.txt" />
       </list>
     </option>
   </component>
@@ -212,10 +214,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="318" />
-    <option name="y" value="54" />
+    <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="978" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -242,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,12 +275,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boois_account" />
+              <option name="myItemId" value="search_str_parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boois_utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search_adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,30 +312,20 @@
     <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/db_helper/mysql_helper" />
-      <recent name="$PROJECT_DIR$/str" />
-      <recent name="$PROJECT_DIR$/vali" />
-      <recent name="$PROJECT_DIR$/result" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/boois_account" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/vali" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/boois_adapter" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/db_helper/mysql_helper" />
+      <recent name="$PROJECT_DIR$/str" />
+      <recent name="$PROJECT_DIR$/vali" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestParse in boois_conf_parser_test.go (2)">
-    <configuration default="false" name="TestTime_String in boois_time_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="boois_utils" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$/boois_time" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestTime_String$" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestSearchAdapter_Init in search_str_parser_test.go">
     <configuration default="false" name="TestCmd_parse in cmd_parse_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="boois_utils" />
       <working_directory value="$PROJECT_DIR$" />
@@ -357,6 +362,16 @@
       <directory value="$PROJECT_DIR$/boois_conf_parser" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^TestParse$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSearchAdapter_Init in search_str_parser_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="boois_utils" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSearchAdapter_Init$" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -599,19 +614,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestTime_String in boois_time_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestCmd_parse in cmd_parse_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestCmd_parse in cmd_parse_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSearchAdapter_Init in search_str_parser_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestCmd_parse in cmd_parse_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestTime_String in boois_time_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSearchAdapter_Init in search_str_parser_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestParse in boois_conf_parser_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestCmd_parse in cmd_parse_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -652,11 +667,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestParse_in_boois_conf_parser_test_go - 2016.12.07 at 14h 18m 30s.xml">
-      <configuration name="TestParse in boois_conf_parser_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestParse_in_boois_conf_parser_test_go_(2) - 2016.12.07 at 14h 19m 23s.xml">
       <configuration name="TestParse in boois_conf_parser_test.go (2)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearchAdapter_Init_in_search_str_parser_test_go - 2016.12.09 at 18h 43m 38s.xml">
+      <configuration name="TestSearchAdapter_Init in search_str_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestTime_String_in_boois_time_test_go - 2016.12.05 at 15h 11m 22s.xml">
       <configuration name="TestTime_String in boois_time_test.go" configurationId="GoTestRunConfiguration" />
@@ -684,28 +699,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="318" y="54" width="2560" height="978" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="2560" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12112788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22279587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41359773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39277652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49222222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4142539" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -732,7 +747,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test.go" />
     <entry file="file:///usr/local/go/src/reflect/value.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5821">
@@ -744,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="712" column="5" selection-start-line="712" selection-start-column="5" selection-end-line="712" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="71" column="20" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
           <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="e#21#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,41 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14744">
           <caret line="776" column="5" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7866">
-          <caret line="419" column="1" selection-start-line="419" selection-start-column="1" selection-end-line="419" selection-end-column="1" />
-          <folding>
-            <element signature="e#27#76#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/regexp/regexp.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7695">
-          <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,19 +982,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#20#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boois_time/boois_time.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="190">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#20#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,6 +996,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_client/http_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="37" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boois_account/boois_account.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9139">
+          <caret line="486" column="39" selection-start-line="486" selection-start-column="39" selection-end-line="486" selection-end-column="39" />
+          <folding>
+            <element signature="e#27#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_str_parser/search_str_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boois_account/boois_account_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1043,6 +1060,14 @@
           <folding>
             <element signature="e#27#72#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,26 +1087,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http_client/http_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="37" column="23" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boois_account/boois_account_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boois_account/boois_account.go">
+    <entry file="file://$PROJECT_DIR$/search_adapter/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="21" />
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
