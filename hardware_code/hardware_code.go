@@ -11,7 +11,17 @@ import (
 	"io/ioutil"
 )
 var boois_soft_sec="福州市鼓楼区步易天下网络科技有限公司"
-
+func GetAllMac() (string,error){
+	interfaces, err := net.Interfaces()
+	macs_arr := []string{}
+	if err != nil {
+		return "", err
+	}
+	for _, inter := range interfaces {
+		macs_arr = append(macs_arr, fmt.Sprintf("%s:%s",inter.Name,inter.HardwareAddr))
+	}
+	return strings.Join(macs_arr, ","), nil
+}
 func get_mac() (string, error) {
 	interfaces, err := net.Interfaces()
 	macs_arr := []string{}
