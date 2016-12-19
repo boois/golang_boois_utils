@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681e9c3e-e9ed-45e9-ab21-5070d9f8df0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hardware_code/hardware_code.go" afterPath="$PROJECT_DIR$/hardware_code/hardware_code.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/license/license.go" />
     </list>
     <list id="22f4456b-957a-4c53-a367-103cf2711d22" name="New changelist" comment="" />
     <ignored path="boois_utils.iws" />
@@ -64,16 +64,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boois_account_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boois_account/boois_account_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="boois_conf_parser_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boois_conf_parser/boois_conf_parser_test.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,13 +86,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hardware_code.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hardware_code.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hardware_code/hardware_code.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="19">
               <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="e#23#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="license.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/license/license.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#17#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test.go" />
         <option value="$PROJECT_DIR$/cmd_parse_test.go" />
         <option value="$PROJECT_DIR$/vali_rule_info.go" />
         <option value="$PROJECT_DIR$/mysql_rows.go" />
@@ -206,6 +207,7 @@
         <option value="$PROJECT_DIR$/hardware_code/hardwarre_code_tet.go" />
         <option value="$PROJECT_DIR$/hardware_code/hardwarre_code_test.go" />
         <option value="$PROJECT_DIR$/hardware_code/hardware_code.go" />
+        <option value="$PROJECT_DIR$/license/license.go" />
       </list>
     </option>
   </component>
@@ -307,7 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hardware_code" />
+              <option name="myItemId" value="license" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,13 +767,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/net/url/url.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="712" column="5" selection-start-line="712" selection-start-column="5" selection-end-line="712" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guid/guid.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1109,10 +1104,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hardware_code/hardware_code.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="19">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#23#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license/license.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#17#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
