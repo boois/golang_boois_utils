@@ -1,18 +1,18 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;boois_utils&gt;">
     <CLASSES>
-      <root url="file:///d01/gopath/src/git.boois.cn" />
-      <root url="file:///d01/gopath/src/gitlab.com" />
-      <root url="file:///d01/gopath/src/gopkg.in" />
-      <root url="file:///d01/gopath/src/github.com" />
-      <root url="file:///d01/gopath/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/gitlab.com" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/git.boois.cn" />
     </CLASSES>
     <SOURCES>
-      <root url="file:///d01/gopath/src/git.boois.cn" />
-      <root url="file:///d01/gopath/src/gitlab.com" />
-      <root url="file:///d01/gopath/src/gopkg.in" />
-      <root url="file:///d01/gopath/src/github.com" />
-      <root url="file:///d01/gopath/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/gitlab.com" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../gopath/src/git.boois.cn" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
