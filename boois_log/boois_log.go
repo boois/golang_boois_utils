@@ -31,8 +31,8 @@ func init() {
 	ins_F = log.New(os.Stderr, "[FATAL] ", log.LstdFlags | log.Llongfile)
 	ins_E = log.New(os.Stderr, "[ERROR] ", log.LstdFlags | log.Llongfile)
 
-	ins_W = log.New(os.Stdout, "[WARN] ", log.LstdFlags | log.Llongfile)
-	ins_I = log.New(os.Stdout, "[INFO] ", log.LstdFlags | log.Llongfile)
+	ins_W = log.New(os.Stdout, "[WARN] ", log.LstdFlags )
+	ins_I = log.New(os.Stdout, "[INFO] ", log.LstdFlags  | log.Llongfile)
 	ins_D = log.New(os.Stdout, "[DEBUG] ", log.LstdFlags | log.Llongfile)
 }
 func F(v ...interface{}) {
