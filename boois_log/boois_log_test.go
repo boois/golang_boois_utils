@@ -8,7 +8,8 @@ func TestAll(t *testing.T) {
 	SetLv(LV_WARN)
 
 	I("info")
-	W("warn")
 	D("debug")
 	E("error")
+	F("fatal")
+	W("warn")
 }
