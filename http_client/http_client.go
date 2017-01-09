@@ -4,19 +4,18 @@ import (
 	"net/http"
 	"strings"
 	"io/ioutil"
+	"net/url"
 )
 
-func Post(url string, data map[string]string) ([]byte,error){
-	data_str_arr := []string{}
+func Post(u string, data map[string]string) ([]byte,error){
+	vals := url.Values{}
 	for k, v := range data {
-		data_str_arr = append(data_str_arr, k + "=" + v)
+		vals.Set(k, v)
 	}
-	data_str := strings.Join(data_str_arr, "&")
-	resp, err := http.Post(url,"application/x-www-form-urlencoded",strings.NewReader(data_str))
+	resp, err := http.PostForm(u,vals)
 	if err != nil {
 		return []byte{},err
 	}
-
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
