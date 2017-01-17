@@ -35,10 +35,11 @@ func OnMsg(net_type string, addr string, each_fn func(net.Conn, []byte, error)) 
 				}
 				//把未解包的片段加上本次读取到的数据
 				//:n 只取前面有读取到的数据  后面都是空的
-				tmpBuffer = boois_protocol.Unpack(append(tmpBuffer, buffer[:n]...), func(data []byte) {
-					each_fn(conn, data, nil)
-				})
-
+				var res []byte
+				res,tmpBuffer = boois_protocol.Unpack(append(tmpBuffer, buffer[:n]...))
+				if len(res)>0{
+					each_fn(conn,res,nil)
+				}
 			}
 		}()
 

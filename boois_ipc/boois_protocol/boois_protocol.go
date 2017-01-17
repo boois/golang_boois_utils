@@ -22,12 +22,10 @@ func Packet(message []byte) []byte {
 }
 
 //解包
-//完整的消息实体会被推入readerChannel
-//返回不完整的信息  供下一次处理
-//func Unpack(buffer []byte,each_fn func([]byte), readerChannel chan []byte) []byte {
-func Unpack(buffer []byte,each_fn func([]byte)) []byte {
+//第一个返回值为完整的一条信息  ,第二个返回值为不完整的信息  供下一次处理
+func Unpack(buffer []byte) ([]byte,[]byte) {
 	length := len(buffer)
-
+	res:=[]byte{}
 	var i int
 	for i = 0; i < length; i = i + 1 {
 		//长度小于包头的长度和存储消息长度的4个字节  说明包头不完整 或包头+数据长度不完整
@@ -42,9 +40,8 @@ func Unpack(buffer []byte,each_fn func([]byte)) []byte {
 				break
 			}
 			//取出消息实体
-			data := buffer[i+ConstHeaderLength+ConstSaveDataLength : i+ConstHeaderLength+ConstSaveDataLength+messageLength]
+			res = buffer[i+ConstHeaderLength+ConstSaveDataLength : i+ConstHeaderLength+ConstSaveDataLength+messageLength]
 			//推到channel中
-			each_fn(data)
 			//i往后偏移
 			i += ConstHeaderLength + ConstSaveDataLength + messageLength - 1
 		}
@@ -52,10 +49,10 @@ func Unpack(buffer []byte,each_fn func([]byte)) []byte {
 	//位置移到了最后一样  说明这个buf读完了
 	if i == length {
 		//剩余没被读取的是空的
-		return make([]byte, 0)
+		return res,[]byte{}
 	}
 	//返回没被读取的
-	return buffer[i:]
+	return res,buffer[i:]
 }
 
 //整形转换成字节

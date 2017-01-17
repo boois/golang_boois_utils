@@ -28,10 +28,9 @@ func Send(conn net.Conn,bs []byte) ([]byte,error) {
 		}
 		//把未解包的片段加上本次读取到的数据
 		//:n 只取前面有读取到的数据  后面都是空的
-		tmpBuffer = boois_protocol.Unpack(append(tmpBuffer, buffer[:n]...), func(data []byte) {
-			res=data
-		})
+		res,tmpBuffer = boois_protocol.Unpack(append(tmpBuffer, buffer[:n]...))
 	}
+	//返回结果
 	return res,nil
 }
 
