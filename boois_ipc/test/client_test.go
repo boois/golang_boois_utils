@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"boois_ipc/client"
+	"boois_ipc"
 )
 
 func BenchmarkName(b *testing.B) {
-	cli, err := client.Connect(NET_TYPE, ADDR);
+	cli, err := boois_ipc.ClientConnect(NET_TYPE, ADDR);
 	if err != nil {
 		log.Println(":", err)
 	}
@@ -22,12 +22,12 @@ func BenchmarkName(b *testing.B) {
 			log.Println("读取文件失败")
 			os.Exit(1)
 		}
-		res, err := client.Send(cli, bs)
+		res, err := boois_ipc.ClientSend(cli, bs)
 		fmt.Println("结果:", string(res))
 	}
 }
 func TestCli(t *testing.T) {
-	cli, err := client.Connect(NET_TYPE, ADDR);
+	cli, err := boois_ipc.ClientConnect(NET_TYPE, ADDR);
 	if err != nil {
 		log.Println(":", err)
 	}
@@ -37,7 +37,7 @@ func TestCli(t *testing.T) {
 		log.Println("读取文件失败")
 		os.Exit(1)
 	}
-	res, err := client.Send(cli, bs)
+	res, err := boois_ipc.ClientSend(cli, bs)
 	fmt.Println("结果:", string(res))
 
 }

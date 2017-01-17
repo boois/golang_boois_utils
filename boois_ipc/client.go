@@ -1,13 +1,12 @@
 //客户端发送封包
-package client
+package boois_ipc
 
 import (
 	"net"
-	"boois_ipc/boois_protocol"
 )
 
-func Send(conn net.Conn,bs []byte) ([]byte,error) {
-	_,err:=conn.Write(boois_protocol.Packet(bs))
+func ClientSend(conn net.Conn,bs []byte) ([]byte,error) {
+	_,err:=conn.Write(Packet(bs))
 	if err!=nil{
 		return []byte{},err
 	}
@@ -28,13 +27,13 @@ func Send(conn net.Conn,bs []byte) ([]byte,error) {
 		}
 		//把未解包的片段加上本次读取到的数据
 		//:n 只取前面有读取到的数据  后面都是空的
-		res,tmpBuffer = boois_protocol.Unpack(append(tmpBuffer, buffer[:n]...))
+		res,tmpBuffer = Unpack(append(tmpBuffer, buffer[:n]...))
 	}
 	//返回结果
 	return res,nil
 }
 
-func Connect(net_type string,addr string)(net.Conn,error) {
+func ClientConnect(net_type string,addr string)(net.Conn,error) {
 	conn, err :=net.Dial(net_type,addr)
 	if err != nil {
 		return conn,err

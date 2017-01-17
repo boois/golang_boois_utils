@@ -1,5 +1,5 @@
 //通讯协议处理，主要处理封包和解包的过程
-package boois_protocol
+package boois_ipc
 
 import (
 	"bytes"

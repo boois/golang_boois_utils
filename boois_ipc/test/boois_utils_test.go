@@ -1,17 +1,17 @@
 package test
 
 import (
-	"testing"
-	"fmt"
+	"os"
 	"net"
 	"log"
-	"time"
-	"os"
+	"fmt"
 	"io/ioutil"
+	"time"
+	"testing"
 	"boois_ipc"
 )
 
-func TestServer(t *testing.T) {
+func TestBooisUtilsServer(t *testing.T) {
 
 	go func() {
 		os.Remove("./test.sock");
