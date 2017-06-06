@@ -32,6 +32,7 @@ func ExecuteScalar(cmdtxt string, mapping []interface{}, db_info string) (map[st
 	if err1 != nil {
 		return map[string]sql.RawBytes{}, err1
 	}
+	defer rows.Close()
 	item := map[string]sql.RawBytes{}
 	eachRow(rows, func(record map[string]sql.RawBytes) bool {
 		item = record
@@ -51,6 +52,7 @@ func Each(cmdtxt string, mapping []interface{}, each_fn func(map[string]sql.RawB
 	if err1 != nil {
 		return err1
 	}
+	defer rows.Close()
 	eachRow(rows, func(record map[string]sql.RawBytes) bool {
 		each_fn(record)
 		return true
@@ -70,6 +72,7 @@ func GetList(cmdtxt string, mapping []interface{}, db_info string) ([]map[string
 	if err1 != nil {
 		return []map[string]sql.RawBytes{}, err1
 	}
+	defer rows.Close()
 	items := []map[string]sql.RawBytes{}
 	eachRow(rows, func(record map[string]sql.RawBytes) bool {
 		items = append(items, record)
